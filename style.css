@@ -1,0 +1,184 @@
+head, body, footer{
+  color: #777777;
+  font-family: futura, sans-serif;
+}
+
+body{
+  height: 100%;
+  background: black;
+}
+
+p {
+  padding: 150px;
+  font-size: 20px;
+}
+
+.gecko2, .gecko3, .gecko4, .gecko5 {
+  position: absolute;
+  text-align: center;
+  color: #777777;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.gecko1 {
+  position: absolute;
+  text-align: center;
+  color: #777777;
+  letter-spacing: 5px;
+  margin: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  background-color: black;
+  padding: 20px;
+  border: 3px solid #777777;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text2 {
+  display: flex;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.gecko1, .gecko2, .gecko3, .gecko4, .gecko5 {
+  position: relative;
+  opacity: 0.55;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gecko1 {
+  background-image: url('https://i.imgur.com/Xz2hErP.jpg');
+  min-height: 650px;
+}
+
+.gecko2 {
+  background-image: url('https://i.imgur.com/AcvRw4v.jpg');
+  min-height: 650px;
+}
+
+.gecko3 {
+  background-image: url('https://i.imgur.com/O1ETxxD.jpg');
+    min-height: 650px;
+}
+
+.gecko4 {
+  background-image: url('https://i.imgur.com/h5nTm5d.jpg');
+  min-height: 650px;
+}
+
+.gecko5 {
+  background-image: url('https://i.imgur.com/xvqoyBA.jpg');
+  min-height: 650px;
+}
+
+.geckotype{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.morphs {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 10px;
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+.morph_img {
+  object-fit: cover;
+  transition: all .2s ease-in-out;
+}
+
+.morph_img:hover {
+  transform: scale(1.5);
+}
+
+.para{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: 25px;
+}
+
+.links {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  font-size: 20px;
+}
+
+.links2 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 30px;
+  font-size: 20px;
+}
+
+a:link{
+  text-decoration: none;
+  color: #777777;
+}
+
+a:visited {
+  color: #777777;
+}
+
+a:hover {
+  color: white;
+}
+
+.socials {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.socialsnavbar{
+  display: inline-block;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+}
+
+@media only screen and (min-width:480px)  {
+  .morphs {
+    width: 100%;
+  }
+}
+
+/*@media (hover: none)
+{
+  a:hover{ transform: scale(1.0);
+  }
+}*/
